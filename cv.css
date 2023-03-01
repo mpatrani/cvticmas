@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0
+}
+
+.c16 {
+	max-width: 860px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.g8,
+.g16 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.c16 .g8 {
+	width: 98%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.c16 .g16 {
+	width: 98.0%;
+}
+
+/**********
+/* encabezado
+**********/
+
+header {
+  background: #04471e;
+  border-bottom: 1px solid #4b3c3c;
+  padding: 19px 0;
+  overflow: hidden;
+}
+
+header figure {
+  float: left;
+  
+}
+
+header figure img {
+  border-radius: 50px;
+  border: solid #fff;
+  height: 175px;
+  width: 175px;
+  position: relative;
+}
+
+header hgroup {
+  float: right;
+  text-align: center;
+}
+
+header hgroup h1 {
+  color: #fff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+#cv {
+  width: 55px;
+  height: 55px;
+}
+
+/***************
+/* Descripcion 
+***************/
+
+p {
+  font: 400 14px 
+  oswald, sans-serif;
+}
+
+section[role=main] {
+  padding: 21px 0;
+  overflow: hidden;
+}
+
+section[role=main] > div {
+  margin-top: 63px;
+}
+
+section[role=main] h3 {
+  border-bottom: 1px solid #BDBDBD;
+  padding: 0 0 20px 60px;
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 50px;
+}
+
+.experiences ul, .training ul {
+
+  padding: 0px;
+}
+
+section[role=main] h4 {
+  margin-bottom: 0px;
+}
+
+section[role=main] h4 strong {
+  color: #04471e;
+  font-weight: normal;
+  font: 400 17px oswald, sans-serif;
+}
+
+.experiences li, .training li {
+  margin-bottom: 35px;
+  list-style: none;
+}
+
+
+
+.g8 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+.g8 .informacion li:before, .g8 .contacto li:before {
+
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: 0;
+  color: #04471e;
+  font-size: 20px;
+}
+
+.g16
+
+.lugar {
+  background-position: 0 -2px;
+  color: #848484;
+  font: 400 15px oswald, sans-serif;
+}
+	
+.fecha {
+  background-position: 0 -22px;
+  color: #999;
+  font: 400 15px oswald, sans-serif;
+}
+
+
+
+.redes {
+
+}
+
+.contacto {
+    
+  width: 40px;
+  height: 40px;
+  margin: 10px 38px 25px 38px;
+}
+
+.formacioniz {
+  float: left;
+}
+
+.formacionder {
+  float: right;
+}
+
